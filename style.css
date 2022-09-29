@@ -1,16 +1,19 @@
 body {
-    background-color: blueviolet;
-    align-items: center;
+    background-image: url(./background.png);
 }
 
 h1 {
-    color: red;
+    color: whitesmoke;
+    align-items: center;
 }
 
 h2 {
-    color: red;
+    color: whitesmoke;
+    align-items: center;
 }
 
 a {
-    color: violet;
+    color: black;
+    border-radius: 8px;
+    background-color: violet;
 }
