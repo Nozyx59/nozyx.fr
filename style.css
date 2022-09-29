@@ -1,0 +1,17 @@
+body {
+    background-image: url(./background.png);
+}
+
+h1 {
+    color: whitesmoke;
+    align-items: center;
+}
+
+h2 {
+    color: whitesmoke;
+    align-items: center;
+}
+
+a {
+    color: gray;
+}
