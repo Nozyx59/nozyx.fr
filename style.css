@@ -1,17 +1,62 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+
 body {
-    background-image: url(./background.png);
+    background-image: url("./background.png");
 }
 
-h1 {
-    color: whitesmoke;
-    align-items: center;
+.main {
+    border: 10px solid royalblue;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 80%;
+    padding: 15px;
+    position: relative;
 }
 
-h2 {
-    color: whitesmoke;
-    align-items: center;
+.social_box {
+    border: 4px solid white;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 20%;
+    padding: 15px;
+    position: relative; 
+    top: 180px;
 }
 
-a {
-    color: gray;
+#title {
+    margin: 20px auto;
+    width: 25%;
+    padding: 15px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+#subtitle {
+    margin: 20px auto;
+    width: 40%;
+    padding: 15px;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+#discord {
+    background-color: royalblue;
+    border-radius: 3px;
+    text-decoration-line: none;
+    color: white;
+}
+
+#youtube {
+    background-color: red;
+    border-radius: 3px;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 40px;
 }
