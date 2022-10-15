@@ -23,7 +23,7 @@ body {
     transition: all 0.1s;
     -webkit-transition: all 0.1s;;
     display: inline-block;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .change_page:active {
@@ -39,10 +39,4 @@ body {
     background-color: #a52a2a;
     border-radius: 10px;
     color: #daa520;
-}
-
-.subscribers {
-    margin-top: 600px;
-    background-color: #ffffff;
-    border-radius: 10px;
 }
